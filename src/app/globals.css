@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.demo {
+  color: green;
+  font-weight: bold;
+  font-size: 30px;
+}
