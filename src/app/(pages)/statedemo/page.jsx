@@ -1,5 +1,6 @@
 "use client";
 
+import MyForm from "@/app/components/MyForm";
 import StateDemo1 from "@/app/components/StateDemo1";
 import StateDemo2 from "@/app/components/StateDemo2";
 import StateDemo3 from "@/app/components/StateDemo3";
@@ -10,7 +11,8 @@ function page() {
       Main Page
       {/* <StateDemo1 /> */}
       {/* <StateDemo2 /> */}
-      <StateDemo3 />
+      {/* <StateDemo3 /> */}
+      <MyForm />
     </div>
   );
 }
