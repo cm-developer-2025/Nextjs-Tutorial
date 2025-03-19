@@ -2,7 +2,7 @@ import React from "react";
 
 function Content() {
   return (
-    <div className="flex max-w-6xl justify-center mx-auto border">
+    <div className="flex max-w-6xl justify-center mx-auto">
       <div className="my-20 mx-5 w-full gap-5 flex  flex-col justify-between lg:mx-auto lg:flex-row">
         {/* Portfolio content  */}
         <div className="w-full shadow-xl p-5 rounded-xl">
@@ -18,7 +18,7 @@ function Content() {
           </p>
         </div>
         {/* Image Section  */}
-        <div className="w-full border">Images</div>
+        <div className="w-full border h-[300px] lg:h-auto">Images</div>
       </div>
     </div>
   );
