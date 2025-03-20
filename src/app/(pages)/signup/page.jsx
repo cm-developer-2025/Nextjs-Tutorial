@@ -24,7 +24,11 @@ function page() {
             <input
               className="outline-none px-2 py-1 border border-sky-400 rounded-md"
               type="text"
-              {...register("username", { required: true, minLength: 4 })}
+              {...register("username", {
+                required: true,
+                minLength: 4,
+                maxLength: 10,
+              })}
             />
             {
               // optional chaining : ?.

@@ -1,4 +1,5 @@
 import NavBar from "@/app/components/NavBar";
+
 import Image from "next/image";
 
 function page() {

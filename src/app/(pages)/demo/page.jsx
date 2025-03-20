@@ -1,3 +1,4 @@
+"use client";
 import MyDemo from "@/app/components/mydemo";
 import MyDemo2 from "@/app/components/mydemo2";
 
