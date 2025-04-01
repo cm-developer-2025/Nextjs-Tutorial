@@ -36,7 +36,7 @@ function page() {
                     <Link href={`/removeproduct/${product.productid}`}>
                       <RiDeleteBin6Line className="text-red-600" size={25} />
                     </Link>
-                    <Link href="#">
+                    <Link href={`/updateproduct/${product.productid}`}>
                       <FaRegEdit className="text-blue-600" size={25} />
                     </Link>
                   </div>

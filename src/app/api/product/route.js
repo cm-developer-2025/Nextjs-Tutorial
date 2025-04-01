@@ -20,7 +20,7 @@ export async function GET(req, res) {
 
 export async function POST(req, res) {
   const newProduct = await req.json();
-  console.log(newProduct);
+
   products.push(newProduct);
   return NextResponse.json(products);
 }
