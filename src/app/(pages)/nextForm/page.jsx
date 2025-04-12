@@ -1,5 +1,7 @@
-import { nextFormHandle } from "@/app/actions/formAction";
+import { getProducts, nextFormHandle } from "@/app/actions/formAction";
+
 import Form from "next/form";
+
 function page() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center mx-auto">
